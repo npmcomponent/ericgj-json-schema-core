@@ -1,7 +1,7 @@
 'use strict';
 
-var isBrowser = require('is-browser')
-  ,  each = isBrowser ? require('each') : require('each-component')
+var isBrowser = require('forbeslindesay-is-browser')
+  ,  each = isBrowser ? require('component-each') : require('each-component')
 
 module.exports = Refs;
 

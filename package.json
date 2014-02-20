@@ -1,29 +1,16 @@
 {
-  "name": "json-schema-core-component",
+  "name": "ericgj-json-schema-core",
+  "description": "JSON Schema core module",
   "version": "0.0.25",
-  "description": "JSON Schema core data structures",
+  "keywords": [],
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha --ui bdd test/tests.js"
-  },
   "dependencies": {
-    "json-schema-uri-component": "https://github.com/ericgj/json-schema-uri/tarball/master",
-    "each-component": "https://github.com/component/each/tarball/master",  
-    "emitter-component": "https://github.com/component/emitter/tarball/master",  
-    "component-type": "https://github.com/component/type/tarball/master",
-    "inherit-component": "https://github.com/component/inherit/tarball/master",
-    "is-browser": "https://github.com/forbeslindesay/is-browser/tarball/master"
+    "ericgj-json-schema-uri": "git://github.com/npmcomponent/ericgj-json-schema-uri.git",
+    "component-each": "git://github.com/npmcomponent/component-each.git",
+    "component-type": "git://github.com/npmcomponent/component-type.git",
+    "component-inherit": "git://github.com/npmcomponent/component-inherit.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "forbeslindesay-is-browser": "git://github.com/npmcomponent/forbeslindesay-is-browser.git"
   },
-  "devDependencies": {
-    "mocha": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ericgj/json-schema-core.git"
-  },
-  "author": "Eric Gjertsen",
   "license": "MIT"
 }

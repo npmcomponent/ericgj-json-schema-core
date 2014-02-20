@@ -1,8 +1,8 @@
-var isBrowser = require('is-browser')
-  , each = isBrowser ? require('each') : require('each-component')
-  , type = isBrowser ? require('type') : require('component-type')
-  , inherit = isBrowser ? require('inherit') : require('inherit-component')
-  , Uri = isBrowser ? require('json-schema-uri') : require('json-schema-uri-component')
+var isBrowser = require('forbeslindesay-is-browser')
+  , each = isBrowser ? require('component-each') : require('each-component')
+  , type = isBrowser ? require('component-type') : require('component-type')
+  , inherit = isBrowser ? require('component-inherit') : require('inherit-component')
+  , Uri = isBrowser ? require('ericgj-json-schema-uri') : require('json-schema-uri-component')
   , has = Object.hasOwnProperty
 
 var Refs = require('./refs')

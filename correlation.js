@@ -1,8 +1,8 @@
 'use strict';
 
-var isBrowser = require('is-browser')
-  , type = isBrowser ? require('type') : require('component-type')
-  , Emitter = isBrowser ? require('emitter') : require('emitter-component')
+var isBrowser = require('forbeslindesay-is-browser')
+  , type = isBrowser ? require('component-type') : require('component-type')
+  , Emitter = isBrowser ? require('component-emitter') : require('emitter-component')
 
 module.exports = Correlation;
 
